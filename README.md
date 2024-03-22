@@ -16,3 +16,5 @@ gcc -o a main.c sha256.c
 - Use G as a ecdsa curve point.
 - Handle data for big integers.
 
+### Screenshots
+- Added in screenshots folder
