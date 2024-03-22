@@ -115,14 +115,14 @@ int oblivious_transfer(int g,int m0,int m1,int c){
 
 int main(){
     int x, y, g;
-    x=10001,y=90010,g=10002;
+    x=10001,y=90010,g=10002; // your multiplicative inputs x and y and g->determined by alice and bob
     int x_bits[32];
     int y_bits[32]; 
     decimalToBinary(x,x_bits);
     decimalToBinary(y,y_bits);
     
 
-    int u=0,v=0;
+    int u=0,v=0; // additive shares
     int curr_pow=1;
     for(int i=0;i<32;++i){
         int u_i=rand()%10+1;
