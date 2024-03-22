@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>  
 #include <string.h>
-// #include "ecdsa.h"
+
 #include "sha256.h"
-#include "curves.h"
-#include "secp256k1.h"
 
 #define int long long
 
